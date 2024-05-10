@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Emilys Candy", serif;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400; 
+  /* font-family: "Emilys Candy", serif; */
 }
 
 .app {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: url("src/images/candy-crush-saga.jpeg");
+  background: linear-gradient(-190deg, lightgreen 0%, blueviolet 50%,purple 100%);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-size: 100vw 100vh;
@@ -22,12 +25,14 @@
   height: 460px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(106, 169, 190, 0.445);
-  border: none;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: solid 1px aliceblue;
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.50);
   border-radius: 10px;
-  box-shadow: 8px 10px 20px blueviolet;
   padding: 10px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .game img {
@@ -37,10 +42,21 @@
   
 }
 
+.title {
+  margin-top: -340px;
+  margin-right: -60px;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.crush {
+  display: block;
+  font-size: 4rem;
+}
+
 .score-board {
-  margin-top: -180px;
-  margin-right: 40px; 
-  color: rgba(255, 0, 0, 0.514);
+  color: aliceblue;
+  margin-left: -140px;
 }
 
 .score {

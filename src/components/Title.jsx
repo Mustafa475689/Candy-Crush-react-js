@@ -4,7 +4,7 @@ const Title = () => {
   return (
     <>
      <div className='title'>
-        <h1 className='heading'>Candy <span className="">Crush</span></h1>
+        <h1 className='heading'>Candy <span className="crush">Crush:</span></h1>
     </div> 
     </>
   )
