@@ -74,3 +74,61 @@ body {
 .highScore {
   font-size:2rem;
 }
+
+/* media queary */
+
+@media (max-width: 440px) {
+
+  .game img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    
+  }
+   
+}
+
+@media (max-width: 425px) {
+
+  .game img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    
+  }
+   
+}
+
+@media (max-width: 409px) {
+
+  .game img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+  }
+   
+}
+
+
+@media (max-width: 393px) {
+
+  .game img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    
+  }
+   
+}
+
+@media (max-width: 377px) {
+
+  .game img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+  }
+   
+}
